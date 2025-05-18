@@ -1,142 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WSFP3BZ7');</script>
-    <!-- End Google Tag Manager -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Caio Oliveira</title>
-    <link rel="stylesheet" href="zotstyle1.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Projetos Flutter</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSFP3BZ7"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-   <header>
-        <div class="Titulo">
-            <h1><strong>Caio Oliveira </strong></h1>
-            
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Meu Portfólio</h1>
+      <nav>
+        <a href="#sobre" class="px-4 hover:text-blue-600">Sobre</a>
+        <a href="#projetos" class="px-4 hover:text-blue-600">Projetos</a>
+        <a href="#contato" class="px-4 hover:text-blue-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="sobre" class="container mx-auto px-6 py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Olá, eu sou [Seu Nome]</h2>
+    <p class="text-lg mb-6">Engenheiro Mecatrônico & Desenvolvedor Flutter apaixonado por criar soluções móveis elegantes e funcionais.</p>
+    <a href="#projetos" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Ver Meus Projetos</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projetos" class="container mx-auto px-6 py-10">
+    <h3 class="text-3xl font-semibold mb-6">Meus Projetos</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Exemplo de card de projeto -->
+      <div class="bg-white rounded-2xl shadow p-6">
+        <img src="caminho/print_app.png" alt="Print do App de Entregas" class="rounded-lg mb-4" />
+        <h4 class="text-2xl font-bold mb-2">App de Entregas</h4>
+        <p class="mb-4">Gerenciamento de entregas com geração de PDFs e exportação para CSV.</p>
+        <div class="flex space-x-4">
+          <a href="https://github.com/seunome/app-entregas" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
+          <a href="https://play.google.com/store/apps/details?id=com.seunome.entregas" target="_blank" class="text-blue-600 hover:underline">Google Play</a>
         </div>
-        <nav>
-            <a href="https://www.linkedin.com/in/oliveira-caio/">Linkedin</a>
-           <!--
+      </div>
+      <!-- Fim do card -->
+      <!-- Para adicionar mais projetos, copie e cole o bloco acima e altere os dados: img src, título, descrição e links -->
+    </div>
+  </section>
 
-           
-            <a href="https://www.linkedin.com/in/oliveira-caio/">Entre em contato</a>
-        -->
-        </nav>
-
-
-    </header>
-    <Main>
-            <div>
-                <p><h1>Sobre</h1></p>
-                <p>Sou um profissional graduado em Engenharia Mecatrônica, atualmente enriquecendo minha formação com um curso de Licenciatura em Matemática. Com um histórico sólido, acumulei 6 anos de experiência na indústria aeroportuária, com foco especial no setor aéreo. Durante esse período, concentrei-me principalmente na excelência do atendimento ao cliente, aplicando análises e consultas diversas por meio da plataforma Excel. Minha trajetória inclui uma contribuição significativa para a Gol Linhas Aéreas, onde exerci funções em áreas variadas, como Check-in, Loja, Embarque, Atendimento Prioritário e Sala VIP. Esses desafios me permitiram aprimorar competências interpessoais de comunicação, compreensão do negócio e resolução de problemas.
-                    </p>
-                <p>Uma parte notável do meu percurso foi a capacidade de implementar efetivamente soluções baseadas em Excel, desenvolvendo planilhas de controle diário que otimizaram processos em diferentes setores. Atualmente, estou engajado no programa de Residência Pedagógica, o que me proporciona uma abordagem pedagógica aprofundada.</p>
-                <p>Com uma busca incessante pelo aprimoramento, estou direcionando meus estudos para áreas altamente relevantes, como Python, PowerBI e Machine Learning. Essas disciplinas emergentes refletem minha dedicação contínua ao desenvolvimento profissional, à capacidade de análise avançada de dados e à resolução de problemas complexos. Estou comprometido em aplicar esse conjunto diversificado de habilidades de maneira impactante e inovadora.</p>
-            </div>
-
-            <div>
-                <p><h1>Habilidades e Pontos Fortes</h1></p>
-                <p>Criatividade - Estratégia - Positividade</p>
-            </div>
-
-            
-            <p><h1>Portfolio</h1></p>
-            <div class="Projetos">
-
-               <p><a href="https://app.powerbi.com/view?r=eyJrIjoiY2YzODVhYTEtYjc0Yi00MTRjLThiMTctMTRkMjMzY2RhMjY2IiwidCI6IjkxODA4YmQwLTVjNmEtNDlkZi05M2RmLWZiNmE3NDBmNTk0ZCIsImMiOjh9" target="Analise de Vendas de Supermercado" rel="noopener noreferrer">Analise de Vendas de Supermercado</a></p> 
-               <p><a href="https://app.powerbi.com/view?r=eyJrIjoiYWZmMTdhMjItYjhiYy00ZWNlLWI0NTAtY2NkODdjODlhZjVlIiwidCI6IjkxODA4YmQwLTVjNmEtNDlkZi05M2RmLWZiNmE3NDBmNTk0ZCIsImMiOjh9" target="_blank" rel="noopener noreferrer">Dashboard de Campanha de Marketing</a></p> 
-               
-
-            </div> 
-            <p><h1>Experiência de Trabalho</h1></p>
-            <section class="Experiência">
-                
-                <div>
-                    <p><h1>Gol Linhas Aéreas</h1></p>
-                    <p>Agente Aeroportuário</p>
-                    <ul>2013 --- 2013 Auxiliar de Aeroportos
-                            <li>Auxilio nos caixas de Auto-Atendimento;</li>
-                                <li>Controle de fluxo de filas, apoio e atendimento geral;</li>
-                        2015 ---- 2018 Agente de Aeroportos
-                                <li>Atendimento ao cliente;</li>
-                                <li>Criação de planilhas para controle de fluxo;</li>
-                                <li>Auxiliando na resolução de problemas;</li>
-                    </ul>
-                              
-                    
-                </div>
-                <div>
-                    <p><h1>Webjet Linhas Aéreas</h1></p>
-                    <p>Aprendiz</p>
-                    <ul><li>Auxilio nos caixas de Auto-Atendimento;</li>
-                        <li>Controle de fluxo de filas, apoio e atendimento geral;</li>
-                    </ul>
-                              
-                    
-                </div>
-
-            </section>
-            
-            <section>
-                <p><h1>Formação</h1></p>
-                <div>
-                    <p><h1>Licenciatura em Matemática</h1></p>
-                    <p>Sou um educador apaixonado e focado em análise e Inteligência Artificial, com uma licenciatura em Matemática pelo renomado Instituto Federal de São Paulo. Minha jornada acadêmica aprofundada me capacitou com as habilidades e conhecimentos necessários para explorar as complexidades dos números e inspirar os outros a fazerem o mesmo.<p>
-                        
-                    </p>
-                        <ul>
-                        <li>🎓 Licenciatura em Matemática pelo Instituto Federal de São Paulo.</li>
-                        <li>🧮 Domínio abrangente dos conceitos matemáticos, incluindo álgebra, geometria, cálculo e estatística.</li>
-                        <li>🛠️ Habilidades em design e desenvolvimento de sistemas automatizados para otimização de processos industriais.</li>
-                        <li>📚 Experiência em desenvolver métodos educacionais inovadores para tornar a Matemática acessível e envolvente.</li>
-                        <li>🎯 Dedicação em auxiliar os alunos a superar desafios matemáticos, promovendo uma compreensão sólida e duradoura.</li>
-                        <li>📊 Habilidade em apresentar conceitos matemáticos de maneira clara e cativante, estimulando o interesse e a participação.</li>
-                        <li>🤝 Colaboração ativa com colegas educadores para compartilhar melhores práticas e aprimorar abordagens de ensino.</li>
-                    </ul>
-                        <p>Minha paixão por encontrar soluções criativas e eficientes impulsiona minha busca contínua por conhecimento e aprimoramento na vanguarda da tecnologia mecatrônica. Estou animado para contribuir para projetos desafiadores, impulsionar a inovação industrial e alcançar resultados excepcionais.</p>
-                        </p>
-    
-                </div>
-                <div>
-                    <p><h1>Engenharia Mecatrônica</h1></p>
-                    <p>Sou um engenheiro mecatrônico altamente motivado e apaixonado por integração de sistemas, automação e inovação. Graduei-me na renomada Faculdade ENIAC, onde desenvolvi uma base sólida em engenharia e adquiri habilidades multidisciplinares para enfrentar desafios complexos na indústria.
-                        Principais Destaques:<p>
-                        
-                    </p>
-                        <ul>
-                        <li>🎓 Bacharel em Engenharia Mecatrônica pela Faculdade ENIAC.</li>
-                        <li>💡 Experiência abrangente em sistemas mecatrônicos, combinando conhecimentos de mecânica, eletrônica e automação.</li>
-                        <li>🛠️ Habilidades em design e desenvolvimento de sistemas automatizados para otimização de processos industriais.</li>
-                        <li>🤖 Conhecimento prático em programação de microcontroladores e PLCs para controle de máquinas e dispositivos.</li>
-                        <li>📈 Familiaridade com análise de dados e soluções inovadoras para melhorar a eficiência e a qualidade.</li>
-                        <li>🌐 Colaboração em equipes multidisciplinares, demonstrando excelentes habilidades de comunicação e resolução de problemas.</li>
-                        <li>🏭 Projetos que resultaram na aplicação prática de conceitos acadêmicos em cenários do mundo real.</li>
-                    </ul>
-                        <p>Minha paixão por encontrar soluções criativas e eficientes impulsiona minha busca contínua por conhecimento e aprimoramento na vanguarda da tecnologia mecatrônica. Estou animado para contribuir para projetos desafiadores, impulsionar a inovação industrial e alcançar resultados excepcionais.</p>
-                        </p>
-                </div>
-            </section>
-            <section>
-               
-            </section>
-    </Main>
-      
-    
+  <!-- Footer -->
+  <footer id="contato" class="bg-white shadow-inner mt-10">
+    <div class="container mx-auto px-6 py-6 text-center">
+      <p>© 2025 [Seu Nome]. Conecte-se comigo:</p>
+      <div class="flex justify-center space-x-4 mt-2">
+        <a href="https://github.com/seunome" target="_blank" class="hover:text-blue-600">GitHub</a>
+        <a href="https://linkedin.com/in/seunome" target="_blank" class="hover:text-blue-600">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
 </body>
-<footer>
-    <p>
-        Para mais informações e contato <a href="mailto:caiocesar_andrade@hotmail.com" target="_blank" rel="noopener noreferrer">caiocesar_andrade@hotmail.com</a>
-    </p>
-</footer>
 </html>
