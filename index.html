@@ -15,136 +15,130 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Caio Oliveira</h1>
-								<p>Engenheiro Mecatrônico & Desenvolvedor Flutter</p>
+			<!-- Header -->
+			<header id="header">
+				<div class="logo">
+					<span class="icon fa-gem"></span>
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h1>Caio Oliveira</h1>
+						<p>Engenheiro Mecatrônico & Desenvolvedor Flutter</p>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#work">Projetos</a></li>
+						<li><a href="#about">Sobre</a></li>
+						<li><a href="#contact">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+				<article id="intro">
+					<h2 class="major">Bem-vindo!</h2>
+					<span class="image main fit"><img src="images/caio_profile.jpg" alt="Caio Oliveira" /></span>
+					<p>Olá, eu sou <strong>Caio Oliveira</strong>, engenheiro mecatrônico e desenvolvedor Flutter. Tenho paixão por criar soluções móveis elegantes e funcionais, integrando APIs RESTful, Firebase e bancos locais.</p>
+				</article>
+
+				<!-- Work -->
+				<article id="work">
+					<h2 class="major">Projetos em Destaque</h2>
+					
+					<p><strong>App de Flag</strong><br>
+					Com o intuito de facilitar o procedimento de "Flagagem" dos pallets, foi feito um APP exclusivo para dispositivos android, 
+					feito em flutter. Ele auxilia no procedimento de conferência pré carregamento, onde os pallets são identificados e 
+					separados em rotas. O processo anterior era feito utilizando um papel com algumas informações impressas e depois o 
+					conferente tinha de escrever todo o resto a mão.
+					A versão anterior do app foi feita em VBA, porém descontinuada pois havia a necessidade de ser portátil.
+					</p>
+					<span class="image fit"><img src="images/FlagRvHome.jpeg" alt="App de Flag - Home" /></span>
+					<span class="image fit"><img src="images/FlagrvImp.jpeg" alt="App de Flag - Impressão" /></span>
+					<span class="image fit"><img src="images/FlagRv vba.PNG" alt="Versão VBA do App de Flag" /></span>
+
+					<p><strong>App de Gestão de transporte</strong><br>
+					Este app foi também feito baseado em Flutter, porém agora com o intuito de gestão do carregamento dos caminhões,
+					onde o principal objetivo era obter as informações de carregamento e gravar a foto do baú do caminhão carregado
+					para que, eventualmente, se ocorresse algum problema relacionado ao carregamento, o gestor verificasse no sistema
+					do próprio app ou na planilha do google sheets as informações do carregamento juntamente com a imagem dele. 
+					O App utiliza APIS, dashboards, sistema de busca, cadastro, etc.
+					</p>
+					<span class="image fit"><img src="images/RvTransSearc.jpeg" alt="App de Gestão - Tela de Busca" /></span>
+					<span class="image fit"><img src="images/FlagrvImp.jpeg" alt="App de Gestão - Impressão" /></span>
+
+					<p><strong>App de Conferência Cega</strong><br>
+					Gerenciamento de mercadorias que retornam por algum motivo. Primeiro projeto, feito em AppSheet. A ideia era ser um projeto bem simples que facilitaria o processo de conferência às cegas feitas pelos conferentes, eliminando o gasto excessivo com papeis e alinhando o processo com tecnologias atuais.</p>
+					<span class="image fit"><img src="images/conferencia cega.jfif" alt="App de Conferência Cega" /></span>
+					
+				</article>
+
+				<!-- About -->
+				<article id="about">
+					<h2 class="major">Sobre Mim</h2>
+					<span class="image main fit"><img src="images/coding_work.jpg" alt="Trabalhando com Flutter" /></span>
+					<p>Com formação em Engenharia Mecatrônica e experiência em análise de dados, atuo no desenvolvimento de aplicativos Flutter, focando em:</p>
+					<ul>
+						<li>Desenvolvimento de soluções para a gestão de controle</li>
+						<li>Integração com APIs e Firebase</li>
+						<li>Geração de relatórios e automações</li>
+					</ul>
+				</article>
+
+				<!-- Contact -->
+				<article id="contact">
+					<h2 class="major">Contato</h2>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Nome</label>
+								<input type="text" name="name" id="name" placeholder="Seu nome" />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" placeholder="seu@email.com" />
+							</div>
+							<div class="field">
+								<label for="message">Mensagem</label>
+								<textarea name="message" id="message" rows="4" placeholder="Como posso ajudar?"></textarea>
 							</div>
 						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Projetos</a></li>
-								<li><a href="#about">Sobre</a></li>
-								<li><a href="#contact">Contato</a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Bem-vindo!</h2>
-								<span class="image main"><img src="images/caio_profile.jpg" alt="Caio Oliveira" /></span>
-								<p>Olá, eu sou <strong>Caio Oliveira</strong>, engenheiro mecatrônico e desenvolvedor Flutter. Tenho paixão por criar soluções móveis elegantes e funcionais, integrando APIs RESTful, Firebase e bancos locais.</p>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Projetos em Destaque</h2>
-								
-								<p><strong>App de Flag</strong><br>
-								Com o intuito de facilitar o procedimento de "Flagagem" dos pallets, foi feito um APP exclusivo para dispositivos android, 
-									feito em flutter. Ele auxilia no procedimento de conferência pré carregamento, onde os pallets são identificados e 
-									separados em rotas. O processo anterior era feito utilizando um papel com algumas informações impressas e depois o 
-									conferente tinha de escrever todo o resto a mão.
-									A versão anterior do app foi feita em VBA, porém descontinuada pois havia a necessidade de ser portátil.
-								</p>
-								<span class="image"><img src="images/FlagRvHome.jpeg" alt="Caio Oliveira" /></span>
-								<span class="image"><img src="images/FlagrvImp.jpeg" alt="Caio Oliveira" /></span>
-								<span class="image"><img src="images/FlagRv vba.PNG" alt="Caio Oliveira" /></span>
-
-
-								
-								<p><strong>App de Gestão de transporte</strong><br>
-								Este app foi também feito baseado em Flutter, porém agora com o intuito de gestão do carregamento dos caminhões,
-									onde o principal objetivo era obter as informações de carregamento e gravar a foto do baú do caminhão carregado
-									para que, eventualmente, se ocorresse algum problema relacionado ao carregamento, o gestor verificasse no sistema
-									do próprio app ou na planilha do google sheets as informações do carregamento juntamente com a imagem dele. 
-									O App utiliza APIS, dashboards, sistema de busca, cadastro, etc.
-								</p>
-								<span class="image"><img src="images/RvTransSearc.jpeg" alt="Caio Oliveira" /></span>
-								<span class="image"><img src="images/FlagrvImp.jpeg" alt="Caio Oliveira" /></span>
-								
-
-
-								
-								
-								<p><strong>App de Conferência Cega</strong><br>
-								Gerenciamento de mercadorias que retornam por algum motivo. Primeiro projeto, feito em AppSheet. A ideia era ser um projeto bem simples que facilitaria o processo de conferência às cegas feitas pelos conferentes, eliminando o gasto excessivo com papeis e alinhando o processo com tecnologias atuais.</p>
-								<span class="image"><img src="images/conferencia cega.jfif" alt="Caio Oliveira" /></span>	
-								
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">Sobre Mim</h2>
-								<span class="image main"><img src="images/coding_work.jpg" alt="Trabalhando com Flutter" /></span>
-								<p>Com formação em Engenharia Mecatrônica e experiência em análise de dados, atuo no desenvolvimento de aplicativos Flutter, focando em:</p>
-								<ul>
-									<li>Desenvolvimento de soluções para a gestão de controle</li>
-									<li>Integração com APIs e Firebase</li>
-									<li>Geração de relatórios e automações</li>
-								</ul>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contato</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Nome</label>
-											<input type="text" name="name" id="name" placeholder="Seu nome" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="email" name="email" id="email" placeholder="seu@email.com" />
-										</div>
-										<div class="field">
-											<label for="message">Mensagem</label>
-											<textarea name="message" id="message" rows="4" placeholder="Como posso ajudar?"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Enviar Mensagem" class="primary" /></li>
-										<li><input type="reset" value="Limpar" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="https://github.com/caiooliveira" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://linkedin.com/in/caiooliveira" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="mailto:caio.oliveira@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; 2025 Caio Oliveira.</p>
-					</footer>
+						<ul class="actions">
+							<li><input type="submit" value="Enviar Mensagem" class="primary" /></li>
+							<li><input type="reset" value="Limpar" /></li>
+						</ul>
+					</form>
+					<ul class="icons">
+						<li><a href="https://github.com/caiooliveira" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://linkedin.com/in/caiooliveira" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:caio.oliveira@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</article>
 
 			</div>
 
-			<!-- BG -->
-				<div id="bg"></div>
+			<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">&copy; 2025 Caio Oliveira.</p>
+			</footer>
 
-			<!-- Scripts -->
-				<script src="assets/js/jquery.min.js"></script>
-				<script src="assets/js/browser.min.js"></script>
-				<script src="assets/js/breakpoints.min.js"></script>
-				<script src="assets/js/util.js"></script>
-				<script src="assets/js/main.js"></script>
+		</div>
 
-		</body>
+		<!-- BG -->
+		<div id="bg"></div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
